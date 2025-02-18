@@ -92,12 +92,9 @@ const Iniciosesion = () => {
           Iniciar Sesión
         </button>
 
-        <div className="login-links">
-          {/*<button className="link-button" onClick={() => navigate('/registro')}>
-            ¿Deseas registrarte como empresa?
-          </button>
-        */}
-        </div>
+        <button className="access-button" onClick={() => navigate('/registrar')}>
+              Registrar
+            </button>
       </div>
     </div>
   );
